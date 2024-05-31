@@ -5,14 +5,14 @@ int main(){
     int n;
     cout<<"Enter two numbers: ";
     cin>>a>>b;
-    cout<<"Enter n: ";
+    cout<<"Enter n:";
     cin>>n;
     switch(n){
-       case 1:cout<<a+b;
-       case 2:cout<<a-b;
-       case 3:cout<<a*b;
-       case 4:cout<<a/b;
-       case 5:cout<<(int)a%(int)b;
+       case 1:cout<<a+b; break;
+       case 2:cout<<a-b; break;
+       case 3:cout<<a*b; break;
+       case 4:cout<<a/b; break;
+       case 5:cout<<(int)a%(int)b; break;
     }
     return 0;
 } 
